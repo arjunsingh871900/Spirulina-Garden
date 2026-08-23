@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://spirulinagarden.com/sitemap.xml
+
+# Disallow admin or private directories (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /.bolt/
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
